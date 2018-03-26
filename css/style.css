@@ -1,0 +1,117 @@
+body {
+    font-family: 'Open Sans', Helvetica, sans-serif;
+}
+
+.header {
+    background-color: #f6f2f2;
+    padding: 30px 165px 30px 165px;
+}
+
+.header__menu {
+    background-color: #313030;
+    margin: auto;
+}
+
+.header__menu>ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.header__menu>ul>li {
+    padding: 27px 24px 22px 24px;
+}
+
+.header__menu>ul>li>a {
+    font-weight: bold;
+    text-decoration-line: none;
+    color: #e0e0e0;
+}
+
+.header__menu>ul>li:hover {
+    background-color: #ff3f40;
+}
+
+.header__main {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 88px;
+    padding-bottom: 51px;
+}
+
+.header__main--text {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.header__main--text>h1 {
+    padding: 0px;
+    margin: 0px;
+    font-size: 60pt;
+    font-weight: bold;
+}
+
+.header__main--text>p {
+    line-height: 1.6;
+    width: 85%;
+    padding-bottom: 40px;
+}
+
+.header__main--text>a {
+    width: 15%;
+    padding: 21px 63px 21px 63px;
+    background-color: #ff2d2d;
+    color: #ffffff;
+    text-decoration-line: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.header__main--text>a:hover {
+    text-decoration-line: underline;
+}
+
+.header__main--video {
+    margin-top: 20px;
+}
+
+.offertext {
+    background-color: #ffffff;
+    padding: 30px 165px 30px 165px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.offertext__main {
+    width: 80%;
+    margin-right: 145px;
+    display: flex;
+    flex-direction: column;
+}
+
+.offertext__main>h2 {
+    color: #585858;
+    font-size: 42px;
+}
+
+.offertext__main>p {
+    width: 80%;
+    padding-bottom: 40px;
+}
+
+.offertext__main>a {
+    width: 15%;
+    padding: 21px 61px 21px 61px;
+    text-decoration-line: none;
+    font-weight: bold;
+    border-radius: 2px;
+    background-color: #ffffff;
+    color: #ff2d2d;
+    border: 3px solid #ff2d2d;
+    border-radius: 5px
+}
+
+.offertext__main>a:hover {
+    text-decoration-line: underline;
+}
