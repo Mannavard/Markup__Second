@@ -1,5 +1,14 @@
 body {
     font-family: 'Open Sans', Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+p {
+    line-height: 1.6;
+}
+
+h2 {
+    font-size: 42px;
 }
 
 .header {
@@ -81,6 +90,7 @@ body {
     padding: 30px 165px 30px 165px;
     display: flex;
     justify-content: flex-start;
+    color: #585858;
 }
 
 .offertext__main {
@@ -88,11 +98,6 @@ body {
     margin-right: 145px;
     display: flex;
     flex-direction: column;
-}
-
-.offertext__main>h2 {
-    color: #585858;
-    font-size: 42px;
 }
 
 .offertext__main>p {
@@ -114,4 +119,34 @@ body {
 
 .offertext__main>a:hover {
     text-decoration-line: underline;
+}
+
+.offertext__details {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    padding: 20px;
+}
+
+.offertext__details--block {
+    padding: 25px;
+}
+
+.offertext__details--block>h4 {
+    font-size: 24px;
+    margin: 10px 0px;
+}
+
+hr {
+    margin: 30px 165px 30px 165px;
+    color: #ececec;
+    background-color: #ececec;
+}
+
+.products {
+    background-color: #ffffff;
+    padding: 30px 165px 30px 165px;
+    display: flex;
+    justify-content: center;
+    color: #585858;
 }
