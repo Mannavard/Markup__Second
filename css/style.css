@@ -11,12 +11,18 @@ h2 {
     font-size: 42px;
 }
 
+h3 {
+    font-size: 30px;
+    margin: 0px;
+}
+
 .header {
     background-color: #f6f2f2;
     padding: 30px 165px 30px 165px;
 }
 
 .header__menu {
+    height: 90px;
     background-color: #313030;
     margin: auto;
 }
@@ -28,7 +34,7 @@ h2 {
 }
 
 .header__menu>ul>li {
-    padding: 27px 24px 22px 24px;
+    padding: 36px 24px 36px 24px;
 }
 
 .header__menu>ul>li>a {
@@ -39,6 +45,7 @@ h2 {
 
 .header__menu>ul>li:hover {
     background-color: #ff3f40;
+    cursor: pointer;
 }
 
 .header__main {
@@ -144,9 +151,179 @@ hr {
 }
 
 .products {
+    text-align: center;
     background-color: #ffffff;
     padding: 30px 165px 30px 165px;
-    display: flex;
-    justify-content: center;
     color: #585858;
+}
+
+.products__description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    max-width: 500px;
+}
+
+.products__description>p::after {
+    content: "";
+    display: block;
+    margin: 25px auto;
+    width: 130px;
+    height: 2px;
+    background: #ff3b3b;
+}
+
+.products__description--list {
+    margin: 30px auto;
+    max-width: 950px;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    font-weight: bold;
+}
+
+.products__description--list>li>a {
+    text-decoration-line: none;
+    color: #585858;
+}
+
+.products__description--list>li>a:hover {
+    color: #ff2d2d;
+}
+
+.products__images {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.products__images--img {
+    width: 355px;
+    height: 345px;
+    margin: 15px;
+    background-color: #f5f0dd;
+}
+
+.team {
+    padding: 30px 165px 30px 165px;
+    background-color: #ffffff;
+    color: #585858;
+}
+
+.team__main {
+    max-width: 470px;
+}
+
+.team__main>p {
+    padding-left: 10px;
+}
+
+.team__main>p::after {
+    content: "";
+    display: block;
+    margin: 30px 0px;
+    width: 130px;
+    height: 2px;
+    background: #ff3b3b;
+}
+
+.team__mates {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+}
+
+.team__mates--photo img {
+    width: 320px;
+    height: 460px;
+    margin: 10px 30px 10px 10px;
+    background-color: #f5f0dd;
+}
+
+.team__mates--describe {
+    max-width: 860px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.team__mates--describe-text {
+    max-width: 650px;
+}
+
+.team__mates--describe-text ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin: 40px 0px;
+    padding: 0px;
+}
+
+.team__mates--describe-text a {
+    text-decoration-line: none;
+    color: #585858;
+    margin: 0px 25px 0px 0px;
+    font-style: italic;
+}
+
+.team__mates--describe-photos {
+    display: flex;
+    flex-direction: row;
+    align-content: flex-end;
+}
+
+.team__mates--describe-photos>img {
+    width: 200px;
+    height: 215px;
+    margin: 42px 20px 0px 0px;
+    background-color: #f5f0dd;
+    border: 1px solid #cccccc;
+}
+
+.team__mates--describe-photos>img:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.subscribe {
+    margin-top: 50px;
+    padding: 130px 165px 130px 165px;
+    background-color: #f5f0dd;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+
+.subscribe__description {
+    margin: 20px auto;
+    text-align: center;
+}
+
+.subscribe__form {
+    display: block;
+    text-align: center;
+}
+
+.subscribe__form--text {
+    width: 480px;
+    height: 80px;
+    border: none;
+    border-radius: 5px;
+    padding-left: 40px;
+    background-color: #ffffff;
+}
+
+.subscribe__form--butt {
+    width: 210px;
+    height: 80px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 20px;
+    background-color: #ff2d2d;
+    color: #ffffff;
+    font-weight: bolder;
+    box-shadow: none;
+    cursor: pointer;
 }
