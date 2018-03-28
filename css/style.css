@@ -269,6 +269,10 @@ hr {
     font-style: italic;
 }
 
+.team__mates--describe-text a:hover {
+    text-decoration-line: underline;
+}
+
 .team__mates--describe-photos {
     display: flex;
     flex-direction: row;
@@ -340,6 +344,10 @@ hr {
     font-weight: bolder;
     box-shadow: none;
     cursor: pointer;
+}
+
+.subscribe__form--butt:hover {
+    text-decoration-line: underline;
 }
 
 .feedback {
