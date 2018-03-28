@@ -452,3 +452,18 @@ hr {
 .footer__social a {
     margin: 7px;
 }
+
+@media screen and (max-width: 1700px) {
+    .header,
+    .offertext,
+    .team,
+    .subscribe,
+    .feedback,
+    .footer {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .team__mates--describe-photos {
+        overflow: hidden;
+    }
+}
