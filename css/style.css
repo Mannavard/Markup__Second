@@ -385,6 +385,18 @@ hr {
     margin-left: 20px;
 }
 
+.feedback__form--area {
+    width: 697px;
+    height: 220px;
+    resize: none;
+    background-color: #e5e5e5;
+    border-radius: 5px;
+    border: none;
+    margin: 44px 0px;
+    padding-left: 50px;
+    padding-top: 30px;
+}
+
 .feedback__form--subm {
     width: 747px;
     height: 70px;
@@ -393,6 +405,11 @@ hr {
     border: none;
     color: #ffffff;
     font-weight: 600;
+}
+
+.feedback__form--subm:hover {
+    cursor: pointer;
+    text-decoration-line: underline;
 }
 
 .feedback__contacts {
@@ -404,8 +421,10 @@ hr {
 }
 
 .feedback__contacts--textblock {
+    height: 225px;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     padding: 120px 60px;
 }
 
